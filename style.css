@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 8px;
+  padding: 12px 12px 15px 12px;
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img-eth {
+  background-image: url("./images/image-equilibrium.jpg");
+  border-radius: 10px;
+  width: 286px;
+  height: 286px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.image-view {
+  background-image: url("./images/icon-view.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 27px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  filter: opacity(0);
+  cursor: none;
+}
+
+.image-view:hover {
+  cursor: pointer;
+  filter: opacity(1);
+  background-color: hsla(178, 100%, 50%, 0.7);
+  border-radius: 10px;  
+}
+
+.card-title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-title p {
+  font-weight: 600;
+  color: white;
+}
+
+.card-title p:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card-description p {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+}
+
+.price p,
+.time p {
+  padding-left: 9px;
+  font-size: 12px;
+}
+
+.card-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 12px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.card-user img {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.card-user p {
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  padding-left: 9px;
+}
+
+.username {
+  text-decoration: none;
+  color: white;
+}
+
+.username:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
