@@ -31,12 +31,11 @@ Users should be able to:
 
 ## My process
 
-Comienzo observando el desafio y construyendo de afuera hacia adentro, creando la estructura HTML y las secciones que tendrá el proyecto a realizar.
+I start by observing the challenge and building from the outside in, creating the HTML structure and the sections that the project will have to carry out.
 
-Una vez que realicé la estructura me dispongo a utilizar CSS para agregar los detalles general, como fuentes, tamaño de colores y los principales fondos de colores.
+Once I have done the structure I am ready to use CSS to add the general details, such as fonts, color sizes and the main colored backgrounds.
 
-Para finalizar, empiezo a alinear cada seccion y ajustarla (en este caso con flexbox) para luego dar detalles finales.
-
+Finally, I begin to align each section and adjust it (in this case with flexbox) and then give final details.
 
 ### Built with
 
